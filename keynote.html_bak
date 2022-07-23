@@ -1,0 +1,77 @@
+<html>
+
+<head>
+
+</head>
+
+<body bgcolor=#FFFFFF>
+
+<center>
+
+<h1 align="center">Keynote Speech</h1>
+
+<ul>
+  <li>
+    <div align="left">
+      <font color="#0000FF"><strong>
+          <a href="#a0">Professor Chin-Chen Chang</a>
+        </strong></font><br>
+        The professor is an Chair Professor in Feng Chia University of Taiwan.</div>
+  </li>
+</ul>
+
+<br />
+
+<hr align="left">
+
+<table width="95%"  border="1" align="center" cellpadding="2" cellspacing="0" bordercolorlight="#000000" bordercolordark="#ffffff" >
+  <tr>
+    <td colspan="2" bgcolor="#AAFF77"><font color="#0000FF" size="5"><strong><a name="a0">Professor Chin-Chen Chang<br>
+    </a><img src="keynotespeech/keynote.jpg?20210812" width="290" height="270"></strong></font></td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#AAFF77"><p align="left">&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#AAFF77"><strong>Topic: </strong></td>
+    <td bgcolor="#AAFF77"><p align='justify'><b>Applying De-Clustering Concept to Information Hiding</b></p></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#AAFF77"><strong>Abstract:</strong></td>
+    <td bgcolor="#AAFF77">
+      <p align='justify'>
+        Reversible steganography allows an original image to be completely restored after the extraction of hidden data embedded in a cover image. In this talk, I will talk about  a reversible scheme based on declustering strategy  for VQ compressed images. The declustering can be regarded as a preprocessing step to make the proposed steganographic method more efficient. The experimental results show that the time required for the embedding process in the proposed method is few. In addition, the reversible steganography allows an original image to be completely restored after the extraction of hidden data embedded in a cover image. In this talk, I will introduce a reversible scheme for VQ-compressed images that is based on a declustering strategy and takes advantage of the local spatial characteristics of the image. The main advantages of this method are ease of implementation, low computational demands,and no requirement for auxiliary data.
+	    </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#AAFF77"><strong>Biography: </strong></td>
+    <td bgcolor="#AAFF77" align="justify">
+      <p align='justify'>
+        Professor Chang has worked on many different topics in information security, cryptography, multimedia image processing and published several hundreds of papers in international conferences and journals and 38 books. He was cited over 38,000 times and has an h-factor of 91 according to Google Scholar. Several well-known concepts and algorithms were adopted in textbooks. He also worked with the National Science Council, Ministry of Technology, Ministry of Education, Ministry of Transportation, Ministry of Economic Affairs and other Government agencies on more than 100 projects and holds 17 patents, including one in US and two in China.
+      </p>
+      <p align='justify'>
+        He served as Honorary Professor, Consulting Professor, Distinguished Professor, Guest Professor at over 50 academic institutions and received Distinguished Alumni Award's from his Alma Master's. He also served as Editor or Chair of several international journals and conferences and had given almost a thousand invited talks at institutions including Chinese Academy of Sciences, Academia Sinica, Tokyo University, Kyoto University, National University of Singapore, Nanyang Technological University, The University of Hong Kong, National Taiwan University and Peking University.
+      </p>
+      <p align='justify'>
+        Professor Chang has mentored 63 PhD students and 195 master students, most of whom hold academic positions at major national or international universities. He has been the Editor-in-Chief of Information Education, a magazine that aims at providing educational materials for middle-school teachers in computer science. He is a leader in the field of information security of Taiwan. He founded the Chinese Cryptography and Information Security Association, accelerating information security the application and development and consulting on the government policy. He is also the recipient of several awards, including the Top Citation Award from Pattern Recognition Letters, Outstanding Scholar Award from Journal of Systems and Software, and Ten Outstanding Young Men Award of Taiwan. He was elected as a Fellow of IEEE and lET in 1998, a Fellow of CS in 2020, and an AAIA Fellow in 2021 for his contribution in the area of information security.
+	    </P>
+    </td>
+  </tr>
+  <!--tr>
+    <td valign="top" bgcolor="#AAFF77"><strong>Resume: </strong></td>
+    <td bgcolor="#AAFF77" align="justify"><p align='justify'>
+		Please refer <b>http://sna.csie.ndhu.edu.tw/~cnyang/PDF/james_resume.pdf</b>
+	</P>
+    </td>
+  </tr-->
+</table>
+
+<h3 align="left">&nbsp;</h3>
+
+</body>
+
+</head>
+
+</html>
+
