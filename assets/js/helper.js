@@ -31,6 +31,7 @@ $(function(){
         //console.log(_x.matches)
         if(_x.matches) {
             $('#collapseNav').collapse('hide');
+            $('#collapseNav1').collapse('hide');
         }
         $.get(_url,undefined,function(result){
             //console.log(result)
@@ -56,9 +57,11 @@ $(function(){
         var _x = window.matchMedia("(max-width: 992px)")
         if (_x.matches) {
             $('#collapseNav').collapse('hide');
+            $('#collapseNav1').collapse('hide');
             $('#btnNavCollapse').removeClass('visually-hidden')
         } else {
             $('#collapseNav').collapse('show');
+            $('#collapseNav1').collapse('show');
             $('#btnNavCollapse').addClass('visually-hidden')
         }
     });
