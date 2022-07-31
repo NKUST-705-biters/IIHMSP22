@@ -1,17 +1,111 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<meta http-equiv="Cache-Control" content="no-cache">
-	<title>IIH-MSP 2022 - The 18th International Conference on Intelligent Information Hiding and Multimedia Signal Processing</title> 
-</head>
-<frameset rows="150,*" border="0">
-	<frame src="upper.html" SCROLLING="no">
-	<frameset cols="200,*" border="0">
-		<frame src="menu.html" SCROLLING="yes">
-		<frame src="news.html" name="main">
-	</frameset>
-</frameset>
-<noframes>
-	<body></body>
-</noframes>
+    <head>
+        <meta charset="UTF-8">
+        <link href="./assets/css/bootstrap.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <style>
+            .scroll-noshow::-webkit-scrollbar {
+              display: none;
+            }
+            .timesNR {
+                font-family: 'times new roman';
+            }
+        </style>
+        <script src="./assets/js/jquery.js"></script>
+        <script src="./assets/js/helper.js"></script>
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+        <meta http-equiv="expires" content="Thu, 01 Jan 1970 00:00:01 GMT" />
+        <meta http-equiv="expires" content="0" />
+    </head>
+    <!-- Note -->
+    <!--
+        menu LinkState
+        If the Link have LinkState attribute:
+        empty = Available soon >>> template/utils/AVAsoon.html
+        [Date] = Available on [Date] >>> template/utils/AVAsoon.html
+        'Online' = [cf_Alias] + will be held Online. >>> template/utils/HeldOnline.html
+    -->
+    <!-- Please Do Not Removed it!! -->
+    <body>
+        <div class="visually-hidden" id="cf_Alias">IIHMSP-2022</div>
+        <!--cf_Alias for js, It is hidden element.-->
+        <div class="container-fluid d-inline-flex p-0">
+            <nav class="d-flex flex-column vh-100 mh-100 shadow bg-gray rounded" style="width: 280px; z-index: 100;">
+                <a href="./" class="d-flex align-items-center pe-md-auto p-3 bg-gray-dark text-light text-decoration-none w-100 text-center">
+                    <strong class="fs-4 w-100">IIHMSP-2022</strong>
+                </a>
+                <div class="w-100 text-center bg-gray text-white-50 pt-2 pb-2">
+                    <a href="https://time.is/Taipei" class="text-decoration-none text-white-50" id="time_is_link" rel="nofollow">Taipei, Taiwan:</a>
+                    <span id="Taipei_z43f"></span>
+                </div>
+                <hr class="border-warning m-0 ms-2 me-2">
+                <ul class="nav navbar navbar-dark navbar-nav flex-column flex-nowrap scroll-noshow" style="overflow-y: scroll; overflow-x: hidden;">
+                    <li class="nav-item visually-hidden">
+                        <a href="./template/News.html" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/OrganizingCommittee.html" class="nav-link">Organizing&nbsp;Committee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/KeynoteSpeech.html" class="nav-link" LinkState="">Keynote&nbsp;Speech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/CallForPaper.html" class="nav-link">Call&nbsp;for&nbsp;Paper</a>
+                    </li>
+                    <li class="nav-item visually-hidden">
+                        <a href="./template/ImportantDates.html" class="nav-link">Important&nbsp;Dates</a>
+                    </li>
+                    <li class="nav-item visually-hidden">
+                        <a href="./template/PaperTemplate.html" class="nav-link">Paper&nbsp;Template</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/InvitedSessions.html" class="nav-link">Invited&nbsp;Sessions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/PaperSubmission.html" class="nav-link">Paper&nbsp;Submission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/Review.html" class="nav-link">Paper&nbsp;Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/AcceptedPaper.html" class="nav-link" LinkState="November 5, 2022">Accepted&nbsp;Paper</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/ConferenceRegistration.html" class="nav-link" LinkState="">Conference&nbsp;Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/ConferenceProgram.html" class="nav-link" LinkState="November 16, 2022">Conference&nbsp;Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/ConferenceVenue.html" class="nav-link" LinkState="Online">Conference&nbsp;Venue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/VisaApplication.html" class="nav-link" LinkState="Online">Visa&nbsp;Application</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./template/TourInformation.html" class="nav-link" LinkState="Online">Tour&nbsp;Information</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar navbar-dark navbar-nav flex-fill flex-nowrap justify-content-end p-0">
+                    <li class="nav-item w-100">
+                        <a href="mailto:iihmsp22@jihmsp.org" class="nav-link text-center bg-gray-dark p-3"><strong>Contact&nbsp;Us</strong></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container-fluid p-0 vh-100" style="max-height: 100vh;overflow-y: hidden;">
+                <div class="p-0 vh-100 scroll-noshow" id="mainFrame" style="overflow-y:scroll"></div>
+            </div>
+        </div>
+        <script> 
+            $(function(){
+              $("#mainFrame").load("./template/Landing.html"); 
+            });
+        </script>
+        <script src="//widget.time.is/en.js"></script>
+        <script>
+            time_is_widget.init({Taipei_z43f:{template:"TIME<br>DATE", time_format:"hours:minutes", date_format:"year/monthnum/daynum dayname"}});
+        </script>
+    </body>
 </html>
