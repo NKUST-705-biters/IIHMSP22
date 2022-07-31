@@ -1,0 +1,42 @@
+<style>
+    .landing {
+        background-image: url('./assets/imgs/Landing.jpg');
+        background-position: bottom;
+        background-size: cover;
+    }
+    .landing>header{
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+</style>
+<div class="landing position-relative vh-50 vh-xxl-66">
+    <header class="position-absolute bottom-0 end-0 p-3 pe-5 text-white text-end" style="margin-bottom: 15vh;">
+        <div class="d-inline text-white-50 fw-light fs-2">
+            <strong class="text-white fw-bold fs-2">IIHMSP-2022</strong> The 18th International Conference on<br/>
+            Intelligent Information Hiding and Multimedia Signal Processing</div>
+        <div class="mt-2 fw-light fs-5">December 16-18, 2022, Kitakyushu, Japan <span class="text-success">(Online)</span></div>
+    </header>
+</div>
+<div class="row px-5 justify-content-center">
+    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_WU.png" alt=""></div>
+    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_SU.png" alt=""></div>
+    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_FI.png" alt=""></div>
+    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_nkust.png" alt=""></div>
+    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/springerlink.png" alt=""></div>
+</div>
+<!--左右分割-->
+<div class="row justify-content-center">
+    <!--左邊-->
+    <div class="col-xl-10 col-xxl-6" id="frm_news"></div>
+    <!--右邊-->
+    <div class="col-xl-10 col-xxl-6">
+        <div class="mt-5 mt-xxl-0" id="frm_ImpDate"></div>
+        <div class="mt-5 mt-xxl-0" id="frm_PaperTemp"></div>
+    </div>
+</div>
+<script> 
+    $(function(){
+      $("#frm_news").load("./template/News.html"); 
+      $("#frm_ImpDate").load("./template/ImportantDates.html"); 
+      $("#frm_PaperTemp").load("./template/PaperTemplate.html"); 
+    });
+</script>
